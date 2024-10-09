@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/portfolio-removebg-preview.png" style="width: 100px; height: auto;">
+        </a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <!-- <a href="#Experience-container">Experience</a> -->
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Hussain</h1>
+            <p>
+                A developer with a strong focus on both backend and frontend web development. My expertise lies in creating dynamic and responsive web applications, ensuring smooth database integration and efficient user interfaces. From building robust functionalities to crafting engaging designs, I bring together both sides of web development to deliver impactful digital solutions.
+            </p>
+            <br><br>
+            <a href="resume@vb.pdf" class="btn" target="_blank">Download CV</a>
+            <a href="#Experience-container" class="btn">Experience</a>
+
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class=''></i>
+                    <h3>Web designer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class=''></i>
+                    <h3>ASP.Net Developer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class=''></i>
+                    <h3>Frontend developer</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/file.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                Hi there, welcome to my website! I'm Hussain Hakimji wala, a dedicated web developer with a passion for creating dynamic, user-friendly applications. I specialize in both backend development with .NET and frontend technologies, constantly exploring new tools and techniques to solve real-world problems through code.
+            </h3>
+            <p>
+                This portfolio showcases my work, where I share insights into projects I've built, my development journey, and tips for tackling challenges in web development. I hope you find my work inspiring and useful.
+            </p>
+            <p>
+                Thank you for visiting and taking the time to learn more about me. If you're interested in my latest updates, feel free to reach out or connect with me for more information. I'd love to collaborate and hear your thoughts!
+            </p>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="Skills" id="Skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="Skills-container">
+            <div class="Skills-box">
+                <i class=''></i>
+                <h3>Web Development</h3>
+                <p>HTML5, CSS3, Bootstrap, Responsive Design, UI Development.
+                </p>
+            </div>
+            <div class="Skills-box">
+                <i class=''></i>
+                <h3>.Net Development</h3>
+                <p>C#,
+                    ASP.NET Web Forms, SQL, SQL
+                    Server Database
+                    Management, Web Forms for
+                    UI Development.
+                    </p>
+            </div>
+            <div class="Skills-box">
+                <i class=''></i>
+                <h3>Programming Language</h3>
+                <p>C, C++, Python.
+                </p>
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+    <!-- portfolio section design -->
+    <section class="projects" id="projects">
+        <h1 class="heading">Latest <span>Project</span></h1>
+        <br>
+        <br>
+        <br>
+
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="images/emp.jpg" alt="">
+
+                <div class="projects-layer">
+                    <h4>Employ Management System</h4>
+                    <p></p>
+                    
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="images/env.png" alt="">
+
+                <div class="projects-layer">
+                    <h4>Enventory Management System</h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="images/shcl.png" alt="">
+
+                <div class="projects-layer">
+                    <h4>School Management System</h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="images/amz.png" alt="">
+
+                <div class="projects-layer">
+                    <h4>Amazon Clone</h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="images/antitheft.png" alt="">
+
+                <div class="projects-layer">
+                    <h4>Movement Finder Sensor</h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="images/portfolio6.jpg" alt="">
+
+                <div class="projects-layer">
+                    <h4>Web Design</h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+    <div class="Experience-container" id="Experience-container">
+        <h2 class="heading">Work <span>Experience</span></h2>
+
+        <div class="Experience-wrapper">
+            <div class="Experience-box mySwiper">
+                <div class="Experience-content swiper-wrapper">
+                    <div class="Experience-slide swiper-slide">
+                        <img src="/images/spr.png" alt="">
+                        <h3>SPARRO WAVES, Udaipur <p>5 July 2024 - 5 October 2024 <span>&nbsp;&nbsp;(4 months)</span></p></h3>
+                        <h3 class="prof">Profile: <span>.Net developer</span></h3>
+                        <p>Contributing to the development and maintenance of web
+                            applications using the .NET framework. My role involves creating
+                            and managing CRUD operations, integrating databases with SQL
+                            Server, and applying business logic through C# and ASP.NET. I am
+                            continuously advancing my expertise in ADO.NET, Entity
+                            Framework, and Web Forms by working on live projects and
+                            following established industry standards in .NET development</p>
+                    </div>
+                    <div class="Experience-slide swiper-slide">
+                        <img src="images/cre.jpeg" alt="">
+                        <h3>Crescentic, Pune <p>4 Aug 2023 - 3 Oct 2023 <span>&nbsp;&nbsp;(2 months)</span></p></h3>
+                        <h3 class="prof">Profile: <span>Web developer</span></h3>
+                        <p>I focused on creating responsive web designs and developing
+                            websites. Notable projects include a weather forecasting app with
+                            API integration, Personal portfolio, and an E-Commerce website.
+                        </p>
+                    </div>
+                    <div class="Experience-slide swiper-slide">
+                        <img src="images/cod.jpeg" alt="">
+                        <h3>CodeClause, Pune <p>1 Dec 2023 - 1 Jan 2024 <span>&nbsp;&nbsp;(2 months)</span></p></h3>
+                        <h3 class="prof">Profile: <span>Frontend developer Intern</span></h3>
+                        <p>I specialized in creating responsive user interfaces, combining
+                            design with frameworks like Bootstrap. This hands-on work
+                            improved my skills in delivering user-friendly experiences for
+                            various needs</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span>
+        <div class="social-media">
+                <!-- <a href="#"><i class='bx bxl-facebook'></i></a> -->
+                <a href="https://github.com/Hussain-hakimjiwala" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/hussain_hakimji/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/hussain-hakimji-wala-a2816725a/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div></h2>
+    </section>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 | All Rights Reserved.</p>
+            <p>Designed by Hussain Hakimjiwala</p>
+            <p>
+                <a href="https://www.linkedin.com/in/hussain-hakimji-wala-a2816725a/" target="_blank"> <i class='bx bxl-linkedin'></i></a> | 
+                <a href="https://github.com/Hussain-hakimjiwala" target="_blank"><i class='bx bxl-github'></i></a> | 
+                <a href="https://www.instagram.com/hussain_hakimji/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+            </p>
+            <p>Contact: <a href="mailto:your-email@example.com">hus612sain@gmail.com</a></p>
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </div>
+        
+        
+
+     
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
